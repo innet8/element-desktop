@@ -126,7 +126,8 @@
         "@types/node": "16.18.48"
     },
     "build": {
-        "appId": "im.riot.app",
+        "productName": "EimChat",
+        "appId": "com.itable.desktopeimchat",
         "asarUnpack": "**/*.node",
         "files": [
             "package.json",
@@ -194,9 +195,9 @@
         },
         "protocols": [
             {
-                "name": "element",
+                "name": "eimchat",
                 "schemes": [
-                    "element"
+                    "eimchat"
                 ]
             }
         ]

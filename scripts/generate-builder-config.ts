@@ -61,7 +61,7 @@ async function main(): Promise<number | void> {
     const cfg: PackageBuild = {
         ...pkg.build,
         extraMetadata: {
-            productName: pkg.productName,
+            productName: 'EimChat',
             description: pkg.description,
         },
     };
